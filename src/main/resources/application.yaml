@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: uat
+che:
+  firstboot:
+    buildVersion: v1.0.0-uat-alpha.0
+---
+spring:
+  profiles:
+    active: uat2
+che:
+  firstboot:
+    buildVersion: v1.0.0-uat2-alpha.0
